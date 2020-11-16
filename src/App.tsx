@@ -11,7 +11,7 @@ function App() {
       <GlobalStyles />
       <Layout>
         <Router>
-          <Home path="/" />
+          <Home path="/Amaury-Vasquez/React-Layout" />
         </Router>
       </Layout>
     </Fragment>
