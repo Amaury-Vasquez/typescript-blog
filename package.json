@@ -2,7 +2,7 @@
   "name": "chess-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Amaury-Vasquez/React-Layout",
+  "homepage": "https://react-layout.netlify.app/",
   "dependencies": {
     "@reach/router": "^1.3.4",
     "@testing-library/jest-dom": "^5.11.5",
