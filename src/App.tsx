@@ -11,7 +11,7 @@ function App() {
       <GlobalStyles />
       <Layout>
         <Router>
-          <Home path="/React-Layout" />
+          <Home path="/" />
         </Router>
       </Layout>
     </Fragment>
