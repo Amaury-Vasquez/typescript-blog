@@ -10,11 +10,11 @@ export const MenuContainer = styled.nav`
   & > * {
     margin-right: 3vw;
     font-size: 18px;
-    color: var(--dark-gray);
+    color: var(--white);
     &:hover {
-      cursor: pointer;
       & > svg {
         transform: scale(1.4);
+        cursor: pointer;
       }
     }
   }

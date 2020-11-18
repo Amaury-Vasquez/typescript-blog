@@ -18,9 +18,11 @@ export const DropDown = dropdown`
 `;
 
 export const DropDownContent = styled.div`
+  margin-top: 2vh;
   display: none;
   position: absolute;
   width: auto;
+  height: auto;
   right: 0;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;

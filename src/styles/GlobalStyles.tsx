@@ -3,10 +3,19 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
   html {
     box-sizing: border-box;
-    --white: #f4f4f2;
+    --main: #0f3460;
+    --dark-blue: #1a1a2e;
+    --blue: #16213e;
+    --red: #e94560;
+    --white: #eeeeee;
     --light-gray: #e8e8e8;
     --gray: #bbbfca;
     --dark-gray: #495464;
+    --black: #000000;
+    --rgba-dark-blue: rgba(26, 26, 46, 0.2);
+    --rgba-blue:  rgba(22, 33, 62, 0.2);
+    --rgba-red: rgba(233, 69, 96, 0.2);
+    --shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   *, *:before, *:after {
@@ -22,7 +31,6 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   body {
-    background-color: #e5e5e5;
     height: 100vh;
     margin: 0 auto;
     max-width: 100vw;

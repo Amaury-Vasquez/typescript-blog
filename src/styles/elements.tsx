@@ -8,4 +8,4 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   background-color: var(--light-gray);
-`
+`;

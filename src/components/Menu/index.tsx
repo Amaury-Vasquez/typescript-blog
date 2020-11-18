@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { FaUserCircle } from "react-icons/fa";
-import { FiSettings } from "react-icons/fi";
+import { FaUserCircle, FaBookOpen } from "react-icons/fa";
 
 import { MenuContainer } from "./styles";
 import { DropDownMenu } from "../DropDownMenu";
 import { UserMenu } from "../UserMenu";
+import { NotesMenu } from "../NotesMenu";
 
 export const Menu = () => {
   const [prevSetter, setSetter] = useState<Function>();
@@ -14,9 +14,11 @@ export const Menu = () => {
   };
   return (
     <MenuContainer>
-      <DropDownMenu callback={callback} cover={FiSettings} content={UserMenu} />
-      <DropDownMenu callback={callback} cover={FiSettings} content={UserMenu} />
-      <DropDownMenu callback={callback} cover={FiSettings} content={UserMenu} />
+      <DropDownMenu
+        callback={callback}
+        cover={FaBookOpen}
+        content={NotesMenu}
+      />
       <DropDownMenu
         callback={callback}
         cover={FaUserCircle}
