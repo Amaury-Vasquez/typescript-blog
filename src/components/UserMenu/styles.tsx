@@ -18,6 +18,9 @@ export const Menu = styled.div`
     border: none;
     border-radius: 1px;
   }
+  @media screen and (max-width: 500px) {
+    width: 80vw;
+  }
 `;
 
 export const Message = styled.p`

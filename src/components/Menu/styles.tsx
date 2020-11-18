@@ -18,6 +18,12 @@ export const MenuContainer = styled.nav`
       }
     }
   }
+  @media screen and (max-width: 500px) {
+    justify-content: space-around;
+    & > * {
+      margin-right: 0;
+    }
+  }
 `;
 
 export const Link = styled(LinkRouter)`
